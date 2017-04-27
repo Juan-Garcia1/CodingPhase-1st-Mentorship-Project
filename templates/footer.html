@@ -1,0 +1,10 @@
+<footer>
+  <small><p>&#169; 2016 All Rights Reserved.</p></small>
+  <ul ng-controller="navController">
+    <li><a ng-class="{ active: isActive('/') }" href="/">home</a></li>
+    <li><a ng-class="{ active: isActive('/about') }" href="/about">about us</a></li>
+    <li><a ng-class="{ active: isActive('/stories') }" href="/stories">stories</a></li>
+    <li><a href="#">forum</a></li>
+    <li><a ng-class="{ active: isActive('/contact') }" href="/contact">contact</a></li>
+  </ul>
+</footer>

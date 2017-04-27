@@ -1,0 +1,27 @@
+/*
+FOOTER
+*/
+footer {
+  height: 300px;
+  padding: 15px;
+  background: url('/images/footer-img.png') no-repeat bottom center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: $transparent;
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    li {
+      margin: auto 10px;
+      a {
+        color: $transparent;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 8px 0;
+      }
+    }
+  }
+}

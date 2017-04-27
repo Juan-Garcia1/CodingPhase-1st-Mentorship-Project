@@ -1,0 +1,34 @@
+/*
+  HERO IMAGE
+*/
+.hero {
+  height: 100vh;
+  background: url('/images/top-img.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  .container {
+    margin-top: 100px;
+    margin-bottom: auto;
+    text-align: center;
+    line-height: 0;
+    h1 {
+      margin-bottom:  10px;
+      font:50px  'Droid Serif';
+      color: $white;
+    }
+    h5 {
+      text-transform: uppercase;
+      color: $red;
+      letter-spacing: 20px;
+      font-size: 12px;
+      line-height: 1;
+      margin-top: 0;
+    }
+    p {
+      color: $white;
+      font-size: 14px;
+      font-family: inherit;
+    }
+  }
+}

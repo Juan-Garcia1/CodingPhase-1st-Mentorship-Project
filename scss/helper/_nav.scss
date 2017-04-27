@@ -1,0 +1,23 @@
+/*
+  NAV
+*/
+nav {
+  background: rgb(21,25,49);
+  // position: absolute;
+  // top:0;
+  // left: 0;
+  // right: 0;
+  // z-index: 1;
+  text-align: center;
+  padding: 25px;
+  a {
+    color: $transparent;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: auto 10px;
+    padding: 5px 0;
+    &:hover {
+      color: $white;
+    }
+  }
+}

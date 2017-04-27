@@ -1,0 +1,32 @@
+/*
+ ARTICLES
+*/
+#articles{
+  background: #f6f6f7;
+  padding:40px 0;
+  div{
+    max-width:600px;
+    margin:auto;
+    display:flex;
+  article{
+    margin:auto 20px;
+    h3{
+      font-family:'Droid Serif', serif;
+    }
+    p{
+      font-size:14px;
+      font-family:'Droid Serif', serif;
+      line-height:1.5;
+    }
+      a{
+        text-transform:uppercase;
+        color:$red;
+        font-family:14px;
+        font-weight:bold;
+      }
+      .right{
+        float:right;
+      }
+    }
+  }
+}

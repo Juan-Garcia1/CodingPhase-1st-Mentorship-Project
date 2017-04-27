@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+@import "helper/variables";
+@import "helper/nav";
+@import "helper/hero-image";
+@import "helper/section";
+@import "helper/contact-form";
+@import "helper/articles";
+@import "helper/footer";
+@import "helper/media-queries";
+
+/*
+ACTIVE NAV  LINK CLASS
+*/
+.active {
+  color: $white !important;
+  border-bottom: 2px solid $red;
+}
+/*
+GLOBAL
+*/
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
